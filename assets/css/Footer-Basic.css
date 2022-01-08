@@ -1,0 +1,39 @@
+.footer-basic {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.footer-basic li {
+  padding-right: 5px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  opacity: 0.8;
+  font-family: 'Montserrat';
+}
+
+.footer-basic ul a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.footer-basic .btn.btn-primary.reserve-button {
+  width: 190px;
+  padding: 8px 30px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+}
+
