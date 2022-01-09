@@ -12,23 +12,6 @@
   }
 }
 
-.hero-description {
-  font-size: 12px;
-  font-weight: 500;
-}
-
-@media (min-width: 576px) {
-  .hero-description {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 576px) {
-  .p-top {
-    font-size: 26px;
-  }
-}
-
 .navbar-brand {
   background: url("../../assets/img/logo.svg") center / 80% no-repeat;
   width: 150px;
@@ -71,6 +54,17 @@
   }
 }
 
+.hero-description {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media (min-width: 576px) {
+  .hero-description {
+    font-size: 16px;
+  }
+}
+
 #hero-bottom {
   color: #fff;
 }
@@ -82,8 +76,20 @@
   margin-bottom: 0;
 }
 
+@media (min-width: 576px) {
+  .p-top {
+    font-size: 26px;
+  }
+}
+
 .p-bottom {
   font-size: 9px;
+}
+
+@media (min-width: 576px) {
+  .p-bottom {
+    font-size: 13px;
+  }
 }
 
 .reserve-button {
@@ -99,8 +105,30 @@
   border-color: white;
 }
 
+#hero .btn.btn-primary.btn-block.reserve-button {
+  font-size: 9px;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 576px) {
+  #hero .btn.btn-primary.btn-block.reserve-button {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+}
+
 .btn.btn-link.btn-block.arrow-button {
   color: #fff;
+}
+
+.icon.ion-ios-arrow-down {
+  font-size: 20px;
+}
+
+@media (min-width: 576px) {
+  .icon.ion-ios-arrow-down {
+    font-size: 32px;
+  }
 }
 
 #hero-bottom .container {
@@ -208,33 +236,5 @@
   height: 200px;
   background: rgba(255,255,255,0.4);
   margin: 0 auto;
-}
-
-@media (min-width: 576px) {
-  .p-bottom {
-    font-size: 13px;
-  }
-}
-
-#hero .btn.btn-primary.btn-block.reserve-button {
-  font-size: 9px;
-  margin-bottom: 55px;
-}
-
-@media (min-width: 576px) {
-  #hero .btn.btn-primary.btn-block.reserve-button {
-    font-size: 13px;
-    margin-bottom: 0;
-  }
-}
-
-.icon.ion-ios-arrow-down {
-  font-size: 20px;
-}
-
-@media (min-width: 576px) {
-  .icon.ion-ios-arrow-down {
-    font-size: 32px;
-  }
 }
 
