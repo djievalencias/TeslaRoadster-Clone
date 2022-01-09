@@ -107,13 +107,11 @@
 
 #hero .btn.btn-primary.btn-block.reserve-button {
   font-size: 9px;
-  margin-bottom: 60px;
 }
 
 @media (min-width: 576px) {
   #hero .btn.btn-primary.btn-block.reserve-button {
     font-size: 13px;
-    margin-bottom: 0;
   }
 }
 
@@ -237,4 +235,3 @@
   background: rgba(255,255,255,0.4);
   margin: 0 auto;
 }
-
